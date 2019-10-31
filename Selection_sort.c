@@ -23,7 +23,7 @@ int main()
 	
 	select_sort(arr,n);	//calling the function
 	
-	printf("\nAfter Selection Sort: \n");
+	printf("\nAfter Selection Sort: \n");//sorted elements will be printed
 	for(int i=0;i<n;i++)
 		printf("\n%d",arr[i]);
 	
